@@ -203,8 +203,12 @@ document.addEventListener('DOMContentLoaded', function () {
         // Send data using FormSubmit AJAX
         const submitBtn = contactForm.querySelector('button[type="submit"]');
         const originalText = submitBtn.innerHTML;
-        submitBtn.innerHTML = '<span>Sending...</span>';
+        submitBtn.innerHTML = '<span><i class="bi bi-hourglass-split"></i> Sending...</span>';
         submitBtn.disabled = true;
+
+        // Use FormData to capture all fields including hidden configuration fields
+        const formData = new FormData(contactForm);
+        const data = Object.fromEntries(formData.entries());
 
         fetch("https://formsubmit.co/ajax/nijamudeen0901@gmail.com", {
             method: "POST",
@@ -212,22 +216,21 @@ document.addEventListener('DOMContentLoaded', function () {
                 'Content-Type': 'application/json',
                 'Accept': 'application/json'
             },
-            body: JSON.stringify({
-                name: name,
-                email: email,
-                subject: subject,
-                message: message
-            })
+            body: JSON.stringify(data)
         })
-            .then(response => response.json())
+            .then(response => {
+                if (!response.ok) throw new Error('Network response was not ok');
+                return response.json();
+            })
             .then(data => {
-                showNotification('Message sent successfully!', 'success');
+                showNotification('Great! Your message has been sent successfully. 🚀', 'success');
                 contactForm.reset();
                 submitBtn.innerHTML = originalText;
                 submitBtn.disabled = false;
             })
             .catch(error => {
-                showNotification('Something went wrong. Please try again.', 'error');
+                console.error('Submission Error:', error);
+                showNotification('Oops! Something went wrong. Please try again later.', 'error');
                 submitBtn.innerHTML = originalText;
                 submitBtn.disabled = false;
             });
@@ -441,6 +444,44 @@ document.addEventListener('DOMContentLoaded', function () {
             this.style.transition = 'all 0.3s ease-out';
         });
     });
+
+    // ===================================
+    // MODAL LOGIC (REUSABLE)
+    // ===================================
+    function setupModal(triggerSelector, modalId, closeId) {
+        const modal = document.getElementById(modalId);
+        const trigger = document.querySelector(triggerSelector);
+        const closeBtn = document.getElementById(closeId);
+        const overlay = modal ? modal.querySelector('.modal-overlay') : null;
+
+        if (trigger && modal && closeBtn) {
+            trigger.addEventListener('click', function (e) {
+                e.preventDefault();
+                modal.classList.add('active');
+                document.body.style.overflow = 'hidden';
+            });
+
+            const closeModal = () => {
+                modal.classList.remove('active');
+                document.body.style.overflow = '';
+            };
+
+            closeBtn.addEventListener('click', closeModal);
+            if (overlay) overlay.addEventListener('click', closeModal);
+
+            document.addEventListener('keydown', function (e) {
+                if (e.key === 'Escape' && modal.classList.contains('active')) {
+                    closeModal();
+                }
+            });
+        }
+    }
+
+    // Initialize all modals
+    setupModal('.drone-details-trigger', 'droneModal', 'closeDroneModal');
+    setupModal('.acquisition-details-trigger', 'acquisitionModal', 'closeAcquisitionModal');
+    setupModal('.internship-details-trigger', 'internshipModal', 'closeInternshipModal');
+    setupModal('.robotic-arm-trigger', 'roboticArmModal', 'closeRoboticArmModal');
 
     console.log('Portfolio initialized successfully! 🚀');
 });
