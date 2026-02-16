@@ -128,7 +128,7 @@
                         <div class="profile-card-glow"></div>
                         <div class="profile-card">
                             <div class="profile-avatar">
-                                <img src="images/profile.jpg" alt="NIJAMUDEEN A Profile Image"
+                                <img src="images/Profileee.png" alt="NIJAMUDEEN A Profile Image"
                                     style="width: 100%; height: 100%; object-fit: cover; border-radius: var(--radius-2xl);">
                             </div>
                         </div>
@@ -167,7 +167,7 @@
                 <div class="about-image">
                     <div class="about-image-wrapper">
                         <div class="about-avatar">
-                            <img src="images/profile.jpg" alt="About NIJAMUDEEN A"
+                            <img src="images/Profilee.png" alt="About NIJAMUDEEN A"
                                 style="width: 100%; height: 100%; object-fit: cover; border-radius: var(--radius-2xl);">
                         </div>
                         <div class="about-shape"></div>
@@ -176,17 +176,18 @@
                 <div class="about-text">
                     <h3 class="about-subtitle">I'm a Software Developer & ECE Graduate</h3>
                     <p class="about-description">
-                        I'm an Electronics and Communication Engineering graduate with a strong passion for full stack
+                        I am an Electronics and Communication Engineering graduate with a strong passion for full-stack
                         development and embedded systems.
-                        I worked as a software developer at GinzeeInfoTech Pvt Ltd, where I contributed to real-time web
-                        projects and gained practical knowledge of modern full stack development.
+                        I worked as a software developer at GinzeeInfoTech Pvt. Ltd., where I contributed to real-time
+                        web projects and gained practical experience in modern full-stack development.
                     </p>
                     <p class="about-description">
-                        Currently, I'm expanding my skills in both software and hardware industries, bridging the gap
+                        Currently, I am expanding my skills in both software and hardware domains, bridging the gap
                         between hardware architecture and intuitive user interfaces.
-                        I'm seeking an entry-level frontend developer role to apply my skills and contribute to
+                        I am seeking an entry-level full stack developer role to apply my skills and contribute to
                         innovative, user-centered web applications.
                     </p>
+
                     <div class="about-info">
                         <div class="info-item">
                             <span class="info-label">Name:</span>
@@ -330,8 +331,8 @@
             <div class="portfolio-filters">
                 <button class="filter-btn active" data-filter="all">All Projects</button>
                 <button class="filter-btn" data-filter="web">Web Design</button>
+                <button class="filter-btn" data-filter="embedded">Embedded Systems</button>
                 <button class="filter-btn" data-filter="mobile">Mobile App</button>
-                <button class="filter-btn" data-filter="branding">Branding</button>
             </div>
 
             <div class="portfolio-grid">
@@ -346,7 +347,8 @@
                                 <p class="portfolio-desc" style="font-size: 0.8rem; color: #ccc;">Temperature & Time
                                     display using 8051, LM35, and RTC.</p>
                                 <div class="portfolio-links">
-                                    <a href="#" class="portfolio-link"><i class="bi bi-eye"></i></a>
+                                    <button class="portfolio-link acquisition-details-trigger"><i
+                                            class="bi bi-eye"></i></button>
                                     <a href="#" class="portfolio-link"><i class="bi bi-link-45deg"></i></a>
                                 </div>
                             </div>
@@ -354,10 +356,11 @@
                     </div>
                 </div>
 
-                <div class="portfolio-item" data-category="embedded">
+                <div class="portfolio-item" data-category="embedded" id="droneProject">
                     <div class="portfolio-image">
                         <img src="https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&fit=crop&q=80&w=800"
-                            alt="Wireless Surveillance Drone" style="width: 100%; height: 100%; object-fit: cover;">
+                            alt="Wireless Surveillance Drone" style="width: 100%; height: 100%; object-fit: cover;"
+                            id="droneImage">
                         <div class="portfolio-overlay">
                             <div class="portfolio-info">
                                 <h3 class="portfolio-title">Wireless Surveillance Drone</h3>
@@ -365,7 +368,8 @@
                                 <p class="portfolio-desc" style="font-size: 0.8rem; color: #ccc;">Aerial vehicle with
                                     audio transmission & emergency alerts.</p>
                                 <div class="portfolio-links">
-                                    <a href="#" class="portfolio-link"><i class="bi bi-eye"></i></a>
+                                    <button class="portfolio-link drone-details-trigger"><i
+                                            class="bi bi-eye"></i></button>
                                     <a href="#" class="portfolio-link"><i class="bi bi-link-45deg"></i></a>
                                 </div>
                             </div>
@@ -379,18 +383,43 @@
                             alt="Web Development Projects" style="width: 100%; height: 100%; object-fit: cover;">
                         <div class="portfolio-overlay">
                             <div class="portfolio-info">
-                                <h3 class="portfolio-title">Internship Web Projects</h3>
+                                <h3 class="portfolio-title">Web Projects</h3>
                                 <p class="portfolio-category">Frontend Dev</p>
                                 <p class="portfolio-desc" style="font-size: 0.8rem; color: #ccc;">Real-time web projects
                                     at GinzeeInfoTech.</p>
                                 <div class="portfolio-links">
-                                    <a href="#" class="portfolio-link"><i class="bi bi-eye"></i></a>
+                                    <button class="portfolio-link internship-details-trigger"><i
+                                            class="bi bi-eye"></i></button>
                                     <a href="#" class="portfolio-link"><i class="bi bi-link-45deg"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+
+                <div class="portfolio-item" data-category="embedded">
+                    <div class="portfolio-image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQulLRRWXGPNokT5AbZMRawVTQqLXu_w6tOCw&s"
+                            alt="Micro Servo Robotic Arm" style="width: 100%; height: 100%; object-fit: cover;">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3 class="portfolio-title">Micro Servo Robotic Arm</h3>
+                                <p class="portfolio-category">Robotics & Embedded</p>
+                                <p class="portfolio-desc" style="font-size: 0.8rem; color: #ccc;">
+                                    Designed and programmed a robotic arm using micro servo motors and microcontrollers
+                                    for precise 4-axis movements.
+                                </p>
+                                <div class="portfolio-links">
+                                    <button class="portfolio-link robotic-arm-trigger"><i
+                                            class="bi bi-eye"></i></button>
+                                    <a href="#" class="portfolio-link"><i class="bi bi-link-45deg"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -549,7 +578,7 @@
 
                         <div class="skill-item">
                             <div class="skill-header">
-                                <span class="skill-name">Embedded C / Keil</span>
+                                <span class="skill-name">Laravel / PHP</span>
                                 <span class="skill-percentage">80%</span>
                             </div>
                             <div class="skill-bar">
@@ -559,7 +588,7 @@
 
                         <div class="skill-item">
                             <div class="skill-header">
-                                <span class="skill-name">Laravel / PHP</span>
+                                <span class="skill-name">Embedded C / Keil</span>
                                 <span class="skill-percentage">75%</span>
                             </div>
                             <div class="skill-bar">
@@ -574,21 +603,21 @@
                     <div class="skill-items">
                         <div class="skill-item">
                             <div class="skill-header">
-                                <span class="skill-name">Linux (Ubuntu)</span>
-                                <span class="skill-percentage">88%</span>
+                                <span class="skill-name">Git / GitHub / GitLab / Bitbucket</span>
+                                <span class="skill-percentage">90%</span>
                             </div>
                             <div class="skill-bar">
-                                <div class="skill-progress" style="width: 88%"></div>
+                                <div class="skill-progress" style="width: 90%"></div>
                             </div>
                         </div>
 
                         <div class="skill-item">
                             <div class="skill-header">
-                                <span class="skill-name">Git / GitHub / GitLab / Bitbucket </span>
-                                <span class="skill-percentage">90%</span>
+                                <span class="skill-name">Linux (Ubuntu)</span>
+                                <span class="skill-percentage">85%</span>
                             </div>
                             <div class="skill-bar">
-                                <div class="skill-progress" style="width: 90%"></div>
+                                <div class="skill-progress" style="width: 85%"></div>
                             </div>
                         </div>
 
@@ -959,6 +988,181 @@
     <button class="scroll-top" id="scrollTop">
         <i class="bi bi-arrow-up"></i>
     </button>
+
+    <!-- Drone Project Detail Modal -->
+    <div class="project-modal" id="droneModal">
+        <div class="modal-overlay"></div>
+        <div class="modal-container">
+            <button class="modal-close" id="closeDroneModal"><i class="bi bi-x-lg"></i></button>
+            <div class="modal-content">
+                <div class="modal-image">
+                    <img id="modalDroneImage"
+                        src="https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&fit=crop&q=80&w=1200"
+                        alt="Surveillance Drone with Speakers">
+                </div>
+                <div class="modal-details">
+                    <span class="modal-category">Featured Project</span>
+                    <h2 class="modal-title">Wireless Surveillance Drone</h2>
+                    <div class="modal-description">
+                        <p>The main functions of a drone include a two-way communication system and process. It also has
+                            speakers to facilitate communication, such as public announcements and emergency alerts.
+                            This feature is particularly useful in situations like disaster management, crowd control,
+                            and search and rescue operations, where conveying information quickly and clearly is
+                            crucial.</p>
+                        <p>Our drone is equipped with advanced audio transmission technology that allows operators to
+                            communicate in real-time with people on the ground. The integrated speaker system is
+                            designed for high-clarity output, ensuring messages are heard even in noisy environments.
+                        </p>
+                    </div>
+                    <div class="modal-features">
+                        <div class="modal-feature">
+                            <i class="bi bi-mic-fill"></i>
+                            <span>Two-Way Communication</span>
+                        </div>
+                        <div class="modal-feature">
+                            <i class="bi bi-megaphone-fill"></i>
+                            <span>Public Announcements</span>
+                        </div>
+                        <div class="modal-feature">
+                            <i class="bi bi-shield-fill-exclamation"></i>
+                            <span>Emergency Alerts</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Data Acquisition Project Detail Modal -->
+    <div class="project-modal" id="acquisitionModal">
+        <div class="modal-overlay"></div>
+        <div class="modal-container">
+            <button class="modal-close" id="closeAcquisitionModal"><i class="bi bi-x-lg"></i></button>
+            <div class="modal-content">
+                <div class="modal-image">
+                    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=1200"
+                        alt="Data Acquisition System">
+                </div>
+                <div class="modal-details">
+                    <span class="modal-category">Embedded Systems</span>
+                    <h2 class="modal-title">Data Acquisition (SPI/I2C)</h2>
+                    <div class="modal-description">
+                        <p>Developed a robust data acquisition system using the 8051 microcontroller. The project
+                            involved interfacing various sensors and peripherals using standard communication protocols.
+                        </p>
+                        <p>Key functionalities include real-time temperature monitoring using the LM35 sensor and
+                            precise timekeeping with an external Real-Time Clock (RTC). Data is efficiently exchanged
+                            between components using SPI and I2C protocols, ensuring high reliability and performance.
+                        </p>
+                    </div>
+                    <div class="modal-features">
+                        <div class="modal-feature">
+                            <i class="bi bi-cpu"></i>
+                            <span>8051 Microcontroller</span>
+                        </div>
+                        <div class="modal-feature">
+                            <i class="bi bi-thermometer-half"></i>
+                            <span>LM35 Temperature Sensor</span>
+                        </div>
+                        <div class="modal-feature">
+                            <i class="bi bi-clock-history"></i>
+                            <span>RTC Integration</span>
+                        </div>
+                        <div class="modal-feature">
+                            <i class="bi bi-diagram-3-fill"></i>
+                            <span>SPI & I2C Protocols</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Internship Web Projects Detail Modal -->
+    <div class="project-modal" id="internshipModal">
+        <div class="modal-overlay"></div>
+        <div class="modal-container">
+            <button class="modal-close" id="closeInternshipModal"><i class="bi bi-x-lg"></i></button>
+            <div class="modal-content">
+                <div class="modal-image">
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=1200"
+                        alt="Web Development Intern Projects">
+                </div>
+                <div class="modal-details">
+                    <span class="modal-category">Frontend & Full Stack</span>
+                    <h2 class="modal-title">Web Projects</h2>
+                    <div class="modal-description">
+                        <p>During my tenure at GinzeeInfoTech Pvt Ltd, I actively contributed to multiple real-time web
+                            development projects, bridging the gap between design concepts and functional code.</p>
+                        <p>I focused on creating responsive, user-friendly interfaces using modern frontend technologies
+                            including HTML5, CSS3, and JavaScript. I also gained experience in backend integration with
+                            PHP and Laravel, ensuring seamless data flow and application performance.</p>
+                    </div>
+                    <div class="modal-features">
+                        <div class="modal-feature">
+                            <i class="bi bi-window-sidebar"></i>
+                            <span>Responsive Web Design</span>
+                        </div>
+                        <div class="modal-feature">
+                            <i class="bi bi-code-slash"></i>
+                            <span>Laravel & PHP Development</span>
+                        </div>
+                        <div class="modal-feature">
+                            <i class="bi bi-git"></i>
+                            <span>Git & Version Control</span>
+                        </div>
+                        <div class="modal-feature">
+                            <i class="bi bi-lightning-charge-fill"></i>
+                            <span>Performance Optimization</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Micro Servo Robotic Arm Detail Modal -->
+    <div class="project-modal" id="roboticArmModal">
+        <div class="modal-overlay"></div>
+        <div class="modal-container">
+            <button class="modal-close" id="closeRoboticArmModal"><i class="bi bi-x-lg"></i></button>
+            <div class="modal-content">
+                <div class="modal-image">
+                    <img src="https://www.hiwonder.com/cdn/shop/files/2_2506f46f-f7fb-402b-ae5d-7740f659e67a.jpg?v=1718087351"
+                        alt="Micro Servo Robotic Arm">
+                </div>
+                <div class="modal-details">
+                    <span class="modal-category">Embedded & Robotics</span>
+                    <h2 class="modal-title">Micro Servo Robotic Arm</h2>
+                    <div class="modal-description">
+                        <p>Designed and built a multi-axis robotic arm controlled by micro servo motors. The project
+                            focuses on precision control and kinematics using microcontrollers.</p>
+                        <p>The system allows for 4-degree-of-freedom movement, enabling tasks like pick-and-place with
+                            high accuracy. Integrated custom firmware to handle PWM signals for smooth motor rotation
+                            and real-time user input processing.</p>
+                    </div>
+                    <div class="modal-features">
+                        <div class="modal-feature">
+                            <i class="bi bi-cpu-fill"></i>
+                            <span>Atmega / Arduino Control</span>
+                        </div>
+                        <div class="modal-feature">
+                            <i class="bi bi-gear-wide-connected"></i>
+                            <span>4-Axis Movement</span>
+                        </div>
+                        <div class="modal-feature">
+                            <i class="bi bi-activity"></i>
+                            <span>PWM Precision Control</span>
+                        </div>
+                        <div class="modal-feature">
+                            <i class="bi bi-tools"></i>
+                            <span>Custom Mechanical Design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Scripts -->
     <script src="js/main.js"></script>
