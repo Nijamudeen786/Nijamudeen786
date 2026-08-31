@@ -24,6 +24,7 @@ const nijamudeen = {
   
   skills: {
     frontend: ["HTML5", "CSS3", "JavaScript", "TailwindCSS", "Bootstrap"],
+    uiux:     ["Figma", "Responsive Design", "Wireframing"],
     backend:  ["PHP", "Laravel"],
     database: ["MySQL"],
     tools:    ["Git", "GitHub", "VS Code"]
@@ -46,6 +47,11 @@ const nijamudeen = {
 ![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+
+### 🎯 UI/UX Design
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+![Adobe XD](https://img.shields.io/badge/Adobe%20XD-470137?style=for-the-badge&logo=Adobe%20XD&logoColor=#FF61F6)
+![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
 
 ### ⚙️ Backend & Database
 ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
