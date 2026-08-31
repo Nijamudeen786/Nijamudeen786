@@ -1,35 +1,137 @@
-# Hi there, I'm NIJAMUDEEN A! 👋
+<div align="center">
 
-## Full Stack Developer | ECE Engineer
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=NIJAMUDEEN%20A&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Full%20Stack%20Developer%20%7C%20ECE%20Engineer&descAlignY=55&descSize=16"/>
 
-I am a passionate **Full Stack Developer** with a **B.E in Electronics and Communication Engineering**. I have practical experience in building scalable and dynamic web applications, with a strong focus on modern frontend and backend technologies.
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6E40C9&center=true&vCenter=true&random=false&width=600&lines=Full+Stack+Developer+%F0%9F%9A%80;Laravel+%26+PHP+Expert+%F0%9F%90%98;ECE+Engineer+turned+Developer+%F0%9F%94%8C;Building+Scalable+Web+Apps+%F0%9F%8C%90)](https://git.io/typing-svg)
 
-- 🔭 I’m currently working on **Full Stack Projects**
-- 🌱 I’m currently learning **Advanced React & Modern Backend Architectures**
-- 💬 Ask me about **Laravel, PHP, and Web Development**
-- 📫 Reach me at: **nijamudeen0901@gmail.com**
-- ⚡ Fun fact: I love bridging the gap between hardware architecture and intuitive user interfaces.
+<img src="https://komarev.com/ghpvc/?username=Nijamudeen786&label=Profile+Views&color=6E40C9&style=for-the-badge" alt="Profile Views" />
+
+</div>
+
+---
+
+## 👨‍💻 About Me
+
+```javascript
+const nijamudeen = {
+  name: "Nijamudeen A",
+  location: "Pudukkottai, Tamil Nadu 📍",
+  role: "Full Stack Developer",
+  education: "B.E in Electronics & Communication Engineering",
+  company: "Ginzee Infotech Private Limited",
+  experience: "1 Year",
+  email: "nijamudeen0901@gmail.com",
+  
+  skills: {
+    frontend: ["HTML5", "CSS3", "JavaScript", "TailwindCSS", "Bootstrap"],
+    backend:  ["PHP", "Laravel"],
+    database: ["MySQL"],
+    tools:    ["Git", "GitHub", "VS Code"]
+  },
+  
+  currentFocus: "Advanced React & Modern Backend Architectures",
+  funFact: "I love bridging hardware architecture with intuitive UIs! ⚡"
+};
+```
+
+---
+
+## 🛠️ Tech Stack
+
+<div align="center">
+
+### 🎨 Frontend
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+
+### ⚙️ Backend & Database
+![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
+![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white)
+![MySQL](https://img.shields.io/badge/mysql-%234479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+
+### 🔧 Tools & Services
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+
+</div>
 
 ---
 
 ## 💼 Work Experience
 
-**Full Stack Developer** | *Ginzee Infotech Private Limited*
-*2025 - 2026 (1 Year Experience)*
+<div align="center">
 
-- Developing and maintaining robust web applications using Laravel and PHP.
-- Working on both front-end and back-end integration with MySQL databases.
-- Collaborating with teams to deliver high-quality, user-centered software solutions.
+| 🏢 Company | 💼 Role | 📅 Duration |
+|:---:|:---:|:---:|
+| **Ginzee Infotech Pvt Ltd** | Full Stack Developer | 2025 – 2026 (1 Year) |
+
+</div>
+
+- 🚀 Developing and maintaining robust web applications using **Laravel** and **PHP**
+- 🔗 Working on both **front-end** and **back-end** integration with **MySQL** databases
+- 🤝 Collaborating with teams to deliver high-quality, user-centered software solutions
 
 ---
 
-## 🛠 Tech Stack
+## 📊 GitHub Statistics
 
-### Frontend
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+<div align="center">
 
-### Backend & Database
-![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%234479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Nijamudeen786&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nijamudeen786&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117"/>
 
-### Tools & Services
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![VS Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+</div>
+
+<div align="center">
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=Nijamudeen786&theme=tokyonight&hide_border=true&background=0D1117&stroke=6E40C9&ring=6E40C9&fire=FF6B6B&currStreakLabel=6E40C9)](https://git.io/streak-stats)
+
+</div>
+
+---
+
+## 🏆 GitHub Trophies
+
+<div align="center">
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=Nijamudeen786&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1)](https://github.com/ryo-ma/github-profile-trophy)
+
+</div>
+
+---
+
+## 📈 Contribution Graph
+
+<div align="center">
+
+[![Nijamudeen's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Nijamudeen786&bg_color=0D1117&color=6E40C9&line=6E40C9&point=FF6B6B&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+</div>
+
+---
+
+## 🤝 Connect With Me
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nijamudeen07)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nijamudeen0901@gmail.com)
+[![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white)](https://gitlab.com/dashboard/projects)
+[![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139)](https://nijamudeen786.github.io/Portfolio)
+
+</div>
+
+---
+
+<div align="center">
+
+### 💡 Quote of the Day
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer"/>
