@@ -98,25 +98,50 @@ const nijamudeen = {
 
 ---
 
-## 🏆 GitHub Trophies
+
+---
+
+## 🚀 Projects
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=Nijamudeen786&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1)](https://github.com/ryo-ma/github-profile-trophy)
+| 🗂️ Project | 🛠️ Tech Used | 🔗 Link |
+|:---|:---|:---:|
+| **Portfolio Website** | HTML, CSS, JavaScript | [![View](https://img.shields.io/badge/View-4285F4?style=flat-square&logo=github&logoColor=white)](https://nijamudeen786.github.io/Portfolio) |
+| **Web Application** | Laravel, PHP, MySQL | [![View](https://img.shields.io/badge/View-4285F4?style=flat-square&logo=github&logoColor=white)](https://github.com/Nijamudeen786) |
+| **UI/UX Design** | Figma, Canva | [![View](https://img.shields.io/badge/View-4285F4?style=flat-square&logo=github&logoColor=white)](https://github.com/Nijamudeen786) |
 
 </div>
 
 ---
 
-## 📈 Contribution Graph
+## 📚 Learning Path
+
+```
+✅ HTML5 & CSS3          ████████████████████  100%
+✅ JavaScript            ████████████████░░░░   80%
+✅ PHP & Laravel         ████████████████░░░░   80%
+✅ MySQL                 ███████████████░░░░░   75%
+✅ TailwindCSS           ████████████████████  100%
+✅ Figma (UI/UX)         ████████████░░░░░░░░   60%
+🔄 React.js             ████████░░░░░░░░░░░░   40%
+🔄 Node.js              █████░░░░░░░░░░░░░░░   25%
+```
+
+---
+
+## 🏅 Certifications
 
 <div align="center">
 
-[![Nijamudeen's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Nijamudeen786&bg_color=0D1117&color=6E40C9&line=6E40C9&point=FF6B6B&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+| 🎖️ Certificate | 🏢 Issued By | 📅 Year |
+|:---|:---|:---:|
+| **Full Stack Web Development** | Ginzee Infotech Pvt Ltd | 2026 |
+| **Laravel & PHP Development** | Self-Learned + Industry | 2025 |
+| **B.E Electronics & Communication** | Anna University | 2025 |
 
 </div>
 
----
 
 ## 🤝 Connect With Me
 
